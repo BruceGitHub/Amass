@@ -16,7 +16,7 @@ sudo docker build -t amass https://github.com/OWASP/Amass.git
 2. Run the Docker image:
 
 ```bash
-sudo docker run amass --passive -d example.com
+sudo docker run amass enum -d example.com
 ```
 
 The wordlists maintained in the Amass git repository are available in `/wordlists/` within the docker container. For example, to use `all.txt`:
